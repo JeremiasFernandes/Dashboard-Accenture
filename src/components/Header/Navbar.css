@@ -1,0 +1,20 @@
+.navbar-container {
+    background-color: rgb(26, 25, 25);
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    z-index: 2;
+    box-shadow: 3px 3px 3px rgb(74, 74, 74);
+
+}
+    .navbar-container img {
+        height: 3rem;
+        cursor: pointer;
+        transition: transform .2s;
+    }
+    .navbar-container img:hover {
+        transform: scale(1.3);
+    }

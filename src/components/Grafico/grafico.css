@@ -1,0 +1,9 @@
+.Grafico{
+    height: 50%;
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+    display: flex;
+    padding: 0% 0% 0% 13%;
+    z-index: -1;
+}
